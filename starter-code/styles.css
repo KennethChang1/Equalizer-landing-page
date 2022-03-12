@@ -9,16 +9,73 @@ body{
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0 0 0 100px;
+    margin: 0 0 0 150px;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .deco{
     position: absolute;
     top: 0px;
     right: 0px;
-    height: 250px;
 }
 
 .logo{
-    
+    margin-top: 30px;
+}
+
+h1{
+    font-size: 88px;
+    width: 1015px;
+    margin: 200px 0 30px 0;
+    line-height: 88px;
+}
+
+.description{
+    width: 825px;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.container{
+    background-color: #191826;
+    height: 600px;
+    width: 1110px;
+    border-radius: 12px;
+    margin-top: 250px;
+}
+
+.phone{
+    position: absolute;
+    width: 312px;
+    height: 642px;
+    top: 650px;
+    left: 190px;
+}
+
+.pattern{
+    position: absolute;
+    left: 490px;
+}
+
+.content{
+    position: absolute;
+    background-color: #FA7453;
+    height: 625px;
+    width: 446px;
+    top: 1000px;
+    left: 680px;
+    border-radius: 12px;
+    padding: 20px 50px 20px 50px;
+}
+
+h2{
+    font-size: 40px;
+    color: #FCFAF9;
+    margin: 50px 0 20px 0;
+}
+
+.content-description{
+    font-size: 20px;
+    color: #FCFAF9;
+    line-height: 34px;
 }
