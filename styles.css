@@ -1,42 +1,40 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-image: url(assets/bg-main-desktop.png);
-    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0 0 0 150px;
+    margin: 0 0 0 10%;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.deco{
+.deco {
     position: absolute;
-    top: 0px;
     right: 0px;
 }
 
-.logo{
-    margin-top: 30px;
+.logo {
+    margin-top: 2em;
 }
 
-h1{
-    font-size: 88px;
-    width: 1015px;
-    margin: 200px 0 30px 0;
+h1 {
+    font-size: 5.5rem;
+    width: 11.5em;
+    margin: 2.5em 0 .3em 0;
     line-height: 88px;
 }
 
-.description{
+.description {
     width: 825px;
     font-size: 20px;
     line-height: 34px;
 }
 
-.container{
+.container {
     background-color: #191826;
     height: 600px;
     width: 1110px;
@@ -44,7 +42,7 @@ h1{
     margin-top: 250px;
 }
 
-.phone{
+.phone {
     position: absolute;
     width: 312px;
     height: 642px;
@@ -52,12 +50,12 @@ h1{
     left: 190px;
 }
 
-.pattern{
+.pattern {
     position: absolute;
     left: 490px;
 }
 
-.content{
+.content {
     position: absolute;
     background-color: #FA7453;
     height: 625px;
@@ -68,19 +66,20 @@ h1{
     padding: 20px 50px 20px 50px;
 }
 
-h2{
+h2 {
     font-size: 40px;
     color: #FCFAF9;
     margin: 50px 0 20px 0;
 }
 
-.content-description, .content-price{
+.content-description,
+.content-price {
     font-size: 20px;
     color: #FCFAF9;
     line-height: 34px;
 }
 
-.big-price{
+.big-price {
     position: relative;
     color: #FCFAF9;
     font-size: 65px;
@@ -89,7 +88,7 @@ h2{
     top: 20px;
 }
 
-.ios-button{
+.ios-button {
     position: absolute;
     background-color: #191826;
     color: #FCFAF9;
@@ -102,12 +101,12 @@ h2{
     font-weight: bold;
 }
 
-.apple-icon{
+.apple-icon {
     position: absolute;
     left: 80px;
 }
 
-.android-button{
+.android-button {
     position: absolute;
     background-color: #FCFAF9;
     color: #191826;
@@ -120,12 +119,12 @@ h2{
     font-weight: bold;
 }
 
-.android-icon{
+.android-icon {
     position: absolute;
     left: 65px;
 }
 
-.footer{
+.footer {
     position: absolute;
     top: 1700px;
     display: flex;
@@ -133,6 +132,78 @@ h2{
     height: 100px;
 }
 
-.footer-content{
+.footer-content {
     flex-basis: 30%;
+}
+
+@media only screen and (max-width:700px) {
+    body{
+        margin: 0px;
+    }
+
+    .logo{
+        margin-left: 5%;
+    }
+
+    .deco {
+        display: none;
+    }
+
+    h1{
+        margin-left: 5%;
+        font-size: 2rem;
+        width: 7em;
+        line-height: 48px;
+    }
+
+    .description{
+        margin-left: 5%;
+        font-size: 1rem;
+        width: 19em;
+        line-height: 26px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .phone{
+        width: 208.97px;
+        height: 430px;
+        left: 60px;
+        top: 600px;
+    }
+
+    .pattern{
+        width: 280px;
+        left: 30px;
+    }
+
+    .content{
+        width: 100%;
+        left: 0em;
+    }
+
+    .ios-button, .android-button{
+        width: 296px;
+        left: 20px;
+    }
+
+    .apple-icon{
+        left: 65px;
+    }
+
+    .android-icon{
+        left: 50px;
+    }
+
+    .footer{
+        margin-left: 5%;
+        flex-direction: column;
+        width: 327px;
+    }
+
+    .footer div{
+        margin-bottom: 20px;
+    }
 }
